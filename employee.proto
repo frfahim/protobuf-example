@@ -1,0 +1,15 @@
+syntax = "proto3";
+package employee;
+
+option go_package = "go_pb";
+
+message Employee {
+    int32 id = 1;
+    string name = 2;
+    string designation = 3;
+    float salary = 4;
+}
+
+message Employees {
+    repeated Employee employees = 1;
+}

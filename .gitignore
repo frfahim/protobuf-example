@@ -1,0 +1,25 @@
+# .gitignore for Go and Python Protobuf Example
+# Binaries
+*.bin
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Go build
+bin/
+*.exe
+*.out
+*.test
+
+# Dependency directories
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Generated Protobuf files
+*.pb.go
+*_pb2.py
